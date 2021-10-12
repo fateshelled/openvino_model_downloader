@@ -1,5 +1,5 @@
-DONWLOAD_DIR=`readlink -f $DONWLOAD_DIR`
-mkdir -p $DONWLOAD_DIR
+export DOWNLOAD_DIR=`readlink -f $DOWNLOAD_DIR`
+mkdir -p $DOWNLOAD_DIR
 cd docker
 docker-compose build
 docker-compose up

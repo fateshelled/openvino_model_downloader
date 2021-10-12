@@ -5,7 +5,7 @@ services:
             context: .
         network_mode: host
         volumes:
-            - $DONWLOAD_DIR:/models
+            - $DOWNLOAD_DIR:/models
         working_dir: /opt/intel/openvino_2021/deployment_tools/tools/model_downloader
         command: "bash ./download_and_optimize.sh"
 

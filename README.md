@@ -6,8 +6,8 @@ OpenVINOのモデルをダウンロードし、IR formatに変換します。
 ```bash
 git clone https://github.com/fateshelled/openvino_model_downloader
 
-# DONWLOAD_DIRでダウンロード先のディレクトリを指定します。
-make run DONWLOAD_DIR=./models
+# DOWNLOAD_DIRでダウンロード先のディレクトリを指定します。
+make run DOWNLOAD_DIR=./models
 ```
 
 ## ダウンロードするモデルを指定する場合
